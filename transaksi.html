@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Transaksi - Blossom Florist</title>
+</head>
+<body bgcolor="#f4f9f4" text="#333333" link="#2d6a4f" vlink="#1b4332" style="margin:0; padding:0;">
+
+    <table width="100%" border="0" align="center" cellpadding="10" cellspacing="0" bgcolor="#ffffff">
+        
+        <tr>
+            <td colspan="3" bgcolor="#74c69d" align="center" height="120">
+                <h1><font color="#ffffff" face="Arial" size="6">🌸 BLOSSOM FLORIST 🌸</font></h1>
+                <p><font color="#ffffff" face="Arial" size="3"><i>"Menyediakan Bunga Segar dan Buket Cantik untuk Momen Spesial Anda"</i></font></p>
+                <marquee bgcolor="#52b788" behavior="scroll" direction="left">
+                    <font color="#ffffff" face="Arial" size="2"><b>PROMO UTS: Diskon 15% untuk semua jenis Buket Mawar Wisuda! Hubungi kami segera.</b></font>
+                </marquee>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" bgcolor="#ffca3a" align="center" height="40">
+                <font face="Arial" size="3">
+                    <a href="index.html"><b>HOME</b></a> &nbsp;|&nbsp; 
+                    <a href="produk.html"><b>PRODUK</b></a> &nbsp;|&nbsp; 
+                    <a href="transaksi.html"><b>INPUT TRANSAKSI</b></a> &nbsp;|&nbsp; 
+                    <a href="tentang.html"><b>TENTANG KAMI</b></a> &nbsp;|&nbsp; 
+                    <a href="kontak.html"><b>PROFIL MAHASISWA</b></a>
+                </font>
+            </td>
+        </tr>
+
+        <tr valign="top">
+            <td width="20%" bgcolor="#99e2b4" align="center">
+                <br>
+                <h3><font face="Arial" color="#1b4332">Navigasi</font></h3>
+                <hr color="#52b788">
+                <table width="100%" cellpadding="5" border="0">
+                    <tr><td><font face="Arial" size="2">🌷 <a href="index.html">Home</a></font></td></tr>
+                    <tr><td><font face="Arial" size="2">🌻 <a href="produk.html">Produk</a></font></td></tr>
+                    <tr><td><font face="Arial" size="2">🌾 <a href="transaksi.html">Transaksi</a></font></td></tr>
+                    <tr><td><font face="Arial" size="2">🌱 <a href="tentang.html">Tentang Kami</a></font></td></tr>
+                    <tr><td><font face="Arial" size="2">💐 <a href="kontak.html">Profil Mahasiswa</a></font></td></tr>
+                </table>
+            </td>
+
+            <td width="60%" bgcolor="#e9f5ed">
+                <h2 align="center"><font face="Arial" color="#2d6a4f">Formulir Reservasi & Pembelian Bunga</font></h2>
+                <hr color="#74c69d" width="30%"><br>
+
+                <form action="#" method="post">
+                    <table width="90%" border="0" cellpadding="8" cellspacing="0" align="center" bgcolor="#ffffff" style="border: 1px solid #74c69d; padding:15px;">
+                        <tr>
+                            <td width="30%"><font face="Arial" size="2"><b>Nama Lengkap Pembeli:</b></font></td>
+                            <td><input type="text" name="nama" size="40" required placeholder="Masukkan nama Anda"></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" size="2"><b>Nomor WhatsApp / HP:</b></font></td>
+                            <td><input type="text" name="nohp" size="20" required placeholder="Contoh: 0812345678"></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" size="2"><b>Pilih Produk Pesanan:</b></font></td>
+                            <td>
+                                <select name="produk_pilihan">
+                                    <option value="p1">Buket Mawar Merah - Rp 150.000</option>
+                                    <option value="p2">Buket Sunflowers - Rp 175.000</option>
+                                    <option value="p3">Premium Tulip Elegant - Rp 350.000</option>
+                                    <option value="p4">Vas Meja Lily Putih - Rp 250.000</option>
+                                    <option value="p5">Sweet Baby Breath - Rp 120.000</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" size="2"><b>Tanggal Pengiriman/Ambil:</b></font></td>
+                            <td><input type="date" name="tgl_kirim" required></td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><font face="Arial" size="2"><b>Alamat Lengkap Tujuan:</b></font></td>
+                            <td><textarea name="alamat" rows="4" cols="40" placeholder="Tulis alamat rumah penerima bunga secara detail..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><font face="Arial" size="2"><b>Isi Kartu Ucapan:</b></font></td>
+                            <td><textarea name="ucapan" rows="3" cols="40" placeholder="Contoh: Happy Graduation, My Dear! From: Anonim"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" size="2"><b>Metode Pembayaran:</b></font></td>
+                            <td>
+                                <input type="radio" name="payment" value="QRIS" checked><font face="Arial" size="2">QRIS otomatis</font><br>
+                                <input type="radio" name="payment" value="Transfer"><font face="Arial" size="2">Transfer Bank (BCA / Mandiri)</font><br>
+                                <input type="radio" name="payment" value="COD"><font face="Arial" size="2">Bayar di Toko (Ambil Sendiri)</font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" size="2"><b>Layanan Tambahan:</b></font></td>
+                            <td>
+                                <input type="checkbox" name="addon1" value="PaperBag"><font face="Arial" size="2">Gunakan Paper Bag Premium (+Rp 10.000)</font><br>
+                                <input type="checkbox" name="addon2" value="Coklat"><font face="Arial" size="2">Tambah Coklat Batangan (+Rp 25.000)</font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <br>
+                                <input type="submit" value="Kirim & Proses Pesanan" style="background-color: #2d6a4f; color: white; font-weight: bold; border: none; padding: 8px 15px; cursor: pointer;">
+                                <input type="reset" value="Kosongkan Form" style="background-color: #666666; color: white; border: none; padding: 8px 15px; cursor: pointer;">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <br>
+            </td>
+
+            <td width="20%" bgcolor="#99e2b4" align="center">
+                <br>
+                <h3><font face="Arial" color="#1b4332">Bantuan Form</font></h3>
+                <hr color="#52b788">
+                <p align="left" style="padding: 10px;"><font face="Arial" size="2">Pastikan nomor handphone aktif untuk konfirmasi foto hasil rangkaian bunga sebelum dikirim ke kurir.</font></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3" bgcolor="#52b788" align="center" height="40">
+                <font color="#ffffff" face="Arial" size="2">Copyright &copy; 2026 - UTS KATI M. Fasya Alghifari. All Rights Reserved.</font>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
